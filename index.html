@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texas Web Design - Best Websites In Texas</title>
     <meta name="description" content="Professional web design services in Texas offering custom design, SEO optimization, and fast load speeds.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-blue-600">TWD</div>
+                <a href="https://test-acc-12349.github.io/texas-web-design-2025-03-24-szfz2" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">TWD</a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:scale-105">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:scale-105">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:scale-105">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:scale-105">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:scale-105">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-all duration-300 hover:scale-105">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#features" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-all duration-300">Features</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-all duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-all duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-all duration-300">About</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-all duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-all duration-300">Contact</a>
             </div>
         </nav>
     </header>
@@ -31,9 +54,9 @@
     <section class="pt-32 pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Texas Web Design</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">Best Websites In Texas</p>
-                <a href="htttps://twd.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">Get Started Today</a>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Transform Your Online Presence with Texas Web Design</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">Elevating Texas businesses with stunning, high-performance websites that drive results and exceed expectations.</p>
+                <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Start Your Digital Journey Today</a>
             </div>
         </div>
     </section>
@@ -41,28 +64,28 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features That Set Us Apart</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 hover:scale-102 transform">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-palette text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Custom Design</h3>
-                    <p class="text-gray-600 leading-relaxed">Unique, professional designs tailored to your brand and business needs.</p>
+                    <h3 class="text-xl font-semibold mb-4">Bespoke Design Excellence</h3>
+                    <p class="text-gray-600 leading-relaxed">Meticulously crafted designs that capture your brand's essence. Our custom solutions ensure your website stands out in today's competitive digital landscape.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 hover:scale-102 transform">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-search text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">SEO Optimized</h3>
-                    <p class="text-gray-600 leading-relaxed">Built-in search engine optimization to improve your visibility online.</p>
+                    <h3 class="text-xl font-semibold mb-4">Advanced SEO Integration</h3>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive search engine optimization built into every page. Boost your rankings and attract more qualified leads with our proven SEO strategies.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 hover:scale-102 transform">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-bolt text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Fast Load Speed</h3>
-                    <p class="text-gray-600 leading-relaxed">Lightning-fast performance optimized for all devices and connections.</p>
+                    <h3 class="text-xl font-semibold mb-4">Lightning-Fast Performance</h3>
+                    <p class="text-gray-600 leading-relaxed">Blazing-fast load times optimized for all devices. Our performance-first approach ensures your visitors enjoy a seamless browsing experience.</p>
                 </div>
             </div>
         </div>
@@ -71,28 +94,96 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">The TWD Advantage</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-dollar-sign text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Low Cost</h3>
-                    <p class="text-gray-600">Competitive pricing without compromising quality.</p>
+                    <h3 class="text-xl font-semibold mb-4">Transparent Value Pricing</h3>
+                    <p class="text-gray-600">Premium web solutions at competitive rates. Get enterprise-level quality without the enterprise-level price tag.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-cogs text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Full Service</h3>
-                    <p class="text-gray-600">Complete web solution from design to deployment.</p>
+                    <h3 class="text-xl font-semibold mb-4">Comprehensive Service Suite</h3>
+                    <p class="text-gray-600">End-to-end web solutions including design, development, hosting, and ongoing maintenance. Your one-stop digital partner.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-sync text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Free Updates</h3>
-                    <p class="text-gray-600">Regular updates and maintenance included.</p>
+                    <h3 class="text-xl font-semibold mb-4">Lifetime Updates & Support</h3>
+                    <p class="text-gray-600">Regular updates, security patches, and dedicated support to keep your website running smoothly and securely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Story</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed">Founded in 2015 by a team of passionate web developers and designers, Texas Web Design emerged from a simple vision: to provide Texas businesses with world-class websites that drive real results. What started as a small studio in Austin has grown into a leading digital agency serving clients across the Lone Star State.</p>
+                <p class="text-gray-600 leading-relaxed">Our mission is to empower Texas businesses with innovative digital solutions that combine stunning design, cutting-edge technology, and strategic marketing. We believe in building long-term partnerships with our clients, delivering exceptional value, and maintaining the highest standards of integrity and professionalism in everything we do.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"TWD transformed our online presence completely. Our new website loads 3x faster and has helped increase our lead generation by 150% in just three months."</p>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-500">CEO, Austin Real Estate Group</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The team at TWD went above and beyond. Their SEO optimization got us to the first page of Google for our key search terms within 2 months."</p>
+                    <p class="font-semibold">Michael Rodriguez</p>
+                    <p class="text-sm text-gray-500">Owner, Houston Digital Marketing</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Professional, responsive, and incredibly talented. Our e-commerce sales increased by 200% after launching our new website."</p>
+                    <p class="font-semibold">Emily Chen</p>
+                    <p class="text-sm text-gray-500">Founder, Dallas Boutique</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The best investment we've made in our business. The custom features they built have automated our booking process and saved us 20 hours per week."</p>
+                    <p class="font-semibold">David Martinez</p>
+                    <p class="text-sm text-gray-500">Director, San Antonio Services</p>
                 </div>
             </div>
         </div>
@@ -103,28 +194,36 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-2">How long does it take to build a website?</h3>
-                    <p class="text-gray-600">Typically 2-4 weeks depending on the project scope and complexity.</p>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                    <h3 class="text-lg font-semibold mb-2">What is your typical website development timeline?</h3>
+                    <p class="text-gray-600">Most projects are completed within 4-6 weeks, depending on complexity. We follow a structured process including discovery, design, development, testing, and launch phases to ensure quality delivery.</p>
                 </div>
-                <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-2">Do you provide hosting services?</h3>
-                    <p class="text-gray-600">Yes, we offer reliable hosting solutions with 99.9% uptime guarantee.</p>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                    <h3 class="text-lg font-semibold mb-2">What hosting and maintenance services do you provide?</h3>
+                    <p class="text-gray-600">We offer premium hosting with 99.9% uptime guarantee, daily backups, SSL certificates, and 24/7 security monitoring. Our maintenance plans include regular updates, performance optimization, and technical support.</p>
                 </div>
-                <div class="border rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-lg font-semibold mb-2">What about mobile responsiveness?</h3>
-                    <p class="text-gray-600">All our websites are fully responsive and optimized for all devices.</p>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                    <h3 class="text-lg font-semibold mb-2">How do you handle mobile responsiveness?</h3>
+                    <p class="text-gray-600">Every website we build is fully responsive and tested across all devices and browsers. We use a mobile-first approach to ensure optimal performance on smartphones, tablets, and desktop computers.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                    <h3 class="text-lg font-semibold mb-2">What are your payment terms and pricing structure?</h3>
+                    <p class="text-gray-600">We offer flexible payment plans with a 50% initial deposit and the remainder due upon project completion. Our pricing is transparent and based on project scope, with packages starting at $2,500.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                    <h3 class="text-lg font-semibold mb-2">Do you provide ongoing support after launch?</h3>
+                    <p class="text-gray-600">Yes, we offer comprehensive post-launch support including technical assistance, content updates, and performance monitoring. Our support team is available during business hours with emergency support available 24/7.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600 text-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-            <p class="text-xl mb-12 opacity-90">Contact us today for a free consultation</p>
-            <a href="mailto:admin@twd.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg">Contact Us</a>
+    <section id="contact" class="py-24 bg-gradient-to-r from-blue-600 to-blue-800 text-white" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+        <div class="container mx-auto px-6 text-center relative z-10 bg-blue-900/80 py-16 rounded-xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Digital Presence?</h2>
+            <p class="text-xl mb-12 opacity-90">Schedule your free consultation today and discover how we can help grow your business online</p>
+            <a href="mailto:admin@twd.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Get Your Free Consultation</a>
         </div>
     </section>
 
@@ -134,7 +233,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Texas Web Design</h3>
-                    <p class="mb-4">Creating the best websites in Texas.</p>
+                    <p class="mb-4">Elevating Texas businesses through innovative web solutions.</p>
                     <p>Email: admin@twd.com</p>
                 </div>
                 <div>
@@ -142,22 +241,25 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/texas-web-design-2025-03-24-szfz2/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/texas-web-design-2025-03-24-szfz2/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/texas-web-design-2025-03-24-szfz2/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="hover:text-white transition-colors duration-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110"><i class="fab fa-twitter text-2xl"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110"><i class="fab fa-facebook text-2xl"></i></a>
+                        <a href="#" class="hover:text-white transition-colors duration-300 transform hover:scale-110"><i class="fab fa-linkedin text-2xl"></i></a>
                     </div>
                 </div>
             </div>
@@ -166,5 +268,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
